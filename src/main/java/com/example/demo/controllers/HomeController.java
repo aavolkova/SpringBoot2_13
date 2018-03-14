@@ -29,7 +29,7 @@ public class HomeController {
 
         Movie movie = new Movie();
         movie.setTitle("Emoji Movie");
-        movie.setYear(2017L);
+        movie.setYear(2017);
         movie.setDescription("About Emojis...");
 
 
