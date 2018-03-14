@@ -20,7 +20,7 @@ public class HomeController {
     MovieRepository movieRepository;
 
     @RequestMapping("/")
-    public String listActors(Model model){
+    public String loadData(Model model){
 
         Actor a = new Actor ();
         a.setName("Sandra Ballock");
